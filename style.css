@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { background:#f7f7f7; font-family:Helvetica, Arial, sans-serif; font-size:14px; padding:0; margin:0; }
+
+header, footer { background:#fff; }
+
+.container { width:980px; margin:0 auto; }
+.inline { margin:0; padding:0; list-style:none; }
+a { color:#73777f; text-decoration:none; }
+	a:hover, a.current { color:#3b414c; text-decoration:none; }
+	
+h2 { color:#3b414c; font-weight:normal; font-size:18px; }
+h3 { color:#3b414c; font-weight:normal; }
+	
+.clearfix:before,
+.clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+header { border-bottom:1px solid #d2d2d2; line-height:44px; }
+	header section {  padding:10px 0; }
+	header section, header li { float:left; }
+		#logo { display:block; width:177px; height:44px; text-indent:-10000px; overflow:hidden; background:url(images/cga_logo.png) top left no-repeat; }
+		#navigation li { margin-left:30px; position:relative; }
+			#navigation li.current a, #navigation li a:hover { color:#1f53be; }
+			#navigation li.current a { font-weight:bold; }
+			#navigation li.current a:after { content:" "; position:absolute; bottom:-16px; left:50%; margin-left:-5px; border-left:1px solid; border-top:1px solid; border-color:#d2d2d2; -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); width:10px; height:10px; background-color:#f7f7f7; }
+		#header-button { margin-left:100px; padding-right:30px; border-right:1px solid #e2e4e7; }
+			#header-button a { font-weight:bold; border:1px solid #adb0b5; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; padding:10px; }
+			
+			
+#main-content { padding:30px 0; }
+	#left-sidebar { width:253px; margin-right:30px; float:left; border:1px solid #d7d9df; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; background-color:#fff; }
+		#left-sidebar li { border-top:1px solid #eaebee; padding:12px 15px;}
+			#left-sidebar li:first-child{ border-top:none; }
+		#left-sidebar .current { font-weight:bold; }
+		#left-sidebar span { padding-right:12px; }
+			#left-sidebar .current span, #left-sidebar a:hover span { color:#1f53be; }
+	
+	#main-area { float:left; width:695px; }
+		form#account-settings { background:#fff; border:1px solid #d4d6dc; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; }
+			form section { padding:30px; }
+				form section#submit-area { padding:30px 0; text-align:right; border-top:1px solid #d4d6dc; }
+					input[type="submit"], a.blue-button { background:#1f53be; color:#fff; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; border-bottom:1px solid #1d4bab; box-shadow:none; border-top:none; border-left:none; border-right:0; padding:10px 15px; font-size:13px; margin-right:30px; cursor:pointer; }
+		#company-info { border-top:1px solid #e9eaed; padding-top:30px; }
+			#company-info h3 { margin-top:0; }

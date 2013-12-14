@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="icon-font.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+<title>Account Settings</title>
+</head>
+
+<body>
+
+	<header class="clearfix">
+    	<div class="container">
+            <section id="brand">
+            	<a id="logo" href="#">Client Logo</a>
+            </section>
+            <section id="navigation">
+            	<ul class="inline">
+                	<li class="current"><a href="#">Projects</a></li>
+                	<li><a href="#">Offers</a></li>
+                </ul>
+            </section>    
+                
+            <section id="header-button">
+            	<a class="info-button" href="#">CGA Info Platform</a>
+            </section>
+            <section id="account-info">
+            	<ul class="inline">
+                	<li><a href="#">5</a></li>
+                	<li><a href="#">5</a></li>
+                	<li><a href="#">Email</a></li>
+                	<li><a href="#">Murray Clark</a></li>
+                	<li><a href="#">Language</a></li>
+                </ul>
+            </section>
+        </div>
+    </header>
+    
+    <section id="main-content" class="clearfix">
+    	<div class="container">
+        	<section id="left-sidebar">
+            	<ul class="inline">
+                	<li class="current"><a href="#"><span class="icon-cog"></span>Account Settings</a></li>
+                	<li><a href="#"><span class="icon-bell"></span>Notification Settings</a></li>
+                	<li><a href="#"><span class="icon-remove"></span>Delete Account</a></li>
+                </ul>
+            
+            </section>
+            
+            <section id="main-area">
+            	<h2>Account Settings</h2>
+                
+                <a class="blue-button" href="#">Change Password</a>
+                
+                <form id="account-settings">
+                	<section>
+                    
+                    	<label>Full Name</label>
+                        <input type="text" name="first-name" />
+                        <input type="text" name="last-name" /><br />
+                        <input type="text" name="first-name-ch" />
+                        <input type="text" name="last-name-ch" />
+                    	<br /><label>Email</label>
+                        <input type="email" name="email" />
+                    	<br /><label>Preferred Language</label>
+                        <input type="radio" name="language" value="English" />English
+                        <input type="radio" name="language" value="Chinese" />Chinese
+                    	<br /><label>I am a...</label>
+                        <input type="radio" name="job-status" value="Buyer" />Buyer
+                        <input type="radio" name="job-status" value="Seller" />Seller
+                        <input type="radio" name="job-status" value="Both" />Both                    
+                    </section>
+                    
+                    <section id="company-info">
+                		<h3>Company Info</h3>
+                        <label>Job Title</label>
+                        <input type="text" name="job-title" />
+                        <input type="text" name="job-title-ch" />
+                        <br /><label>Company Name</label>
+                        <input type="text" name="company-name" />
+                        <input type="text" name="company-name-ch" />
+                        <input type="checkbox" name="make-private" value="make company private" />I want to make my company name private
+                        <br /><label>Company Alias</label>
+                        <input type="text" name="company-alias" />
+                        <input type="text" name="company-alias-ch" />
+                    	<br /><label>Website</label>
+                        <input type="text" name="website" />
+                    	<br /><label>Country</label>
+                        <select>
+                        	<option value="Country 1">Country 1</option>
+                        	<option value="Country 2">Country 2</option>
+                        </select>
+                    	<br /><label>City</label>
+                        <input type="text" name="city" />
+                        <input type="text" name="city-ch" />
+                    	<br /><label>Phone Number</label>
+                        <input type="text" name="phone" />
+
+                    </section>
+                    
+                    <section id="submit-area">
+                    	<input type="submit" value="Save Settings" />
+                    </section>
+                </form>
+            
+            </section>
+        </div>
+    </section>
+    
+    <footer class="clearfix">
+    	<div class="container">
+            <section id="footer-top">
+            
+                <h3>About Client Company</h3>
+                <p>CGA is a bilingual, members-only platform dedicated to outbound investment from China. It provides Chinese investors (state-owned enterprises, private companies and high-net worth individuals) a forum to find investment opportunities and related information, and global service providers and foreign asset owners a platform to promote their assets and expertise. For more information, <a href="#">please click here</a>.</p>
+                
+                <h3>Co-Founders</h3>
+                <a href="#" target="_blank"></a>
+                <a href="#" target="_blank"></a>
+            </section>
+            
+            <section id="footer-bottom">
+                <p>Copyright &copy; 2011-2013 Company. All Rights Reserved.</p>
+                
+                <ul class="inline">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            
+            </section>
+		</div>
+    </footer>
+</body>
+</html>
